@@ -1,4 +1,4 @@
-﻿# Instructions
+# Instructions
 
 So you have created a model and scaffoled the CRUD pages as standard. Then you have used PMC to add a migration and update the database. Then tested the web interface to add a new (in this instance) Country
 
