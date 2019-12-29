@@ -3,14 +3,16 @@ using ApiTest.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ApiTest.Migrations
 {
     [DbContext(typeof(ApiTestContext))]
-    partial class ApiTestContextModelSnapshot : ModelSnapshot
+    [Migration("20191229145527_city")]
+    partial class city
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

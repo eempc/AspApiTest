@@ -15,5 +15,7 @@ namespace ApiTest.Data
         }
 
         public DbSet<ApiTest.Models.Country> Country { get; set; }
+
+        public DbSet<ApiTest.Models.City> City { get; set; }
     }
 }
